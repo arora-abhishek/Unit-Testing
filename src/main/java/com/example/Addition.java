@@ -16,9 +16,25 @@ public class Addition {
         return a+b;
     }
 
+
+
+    float sumf(float a, float b){
+        return a+b;
+    }
+
+
+
     String sum(String fName,String lName){
         return fName+lName;
     }
+
+
+
+    Integer sum_wrapper(Integer a, Integer b){
+        return a+b;
+    }
+
+
 
     List sum(List listA, List listB){
         List list=new ArrayList();
